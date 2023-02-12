@@ -1,0 +1,43 @@
+{
+  "home": {
+    "routeHome": "Home",
+    "routeSearchAccident": "Search Accident",
+    "routeChangePassword": "Change Password",
+    "routeLogout": "Logout"
+  },
+  "searchAccident": {
+    "routeHome": "Home",
+    "routeSearchAccident": "Search Accident",
+    "routeNewAccident": "New Accident",
+    "routeChangePassword": "Change Password",
+    "routeLogout": "Logout"
+  },
+  "accidentApplication": {
+    "routeHome": "Home",
+    "routeSearchAccident": "Search Accident",
+    "routeNewAccident": "New Accident",
+    "routeAccidentPrint": "Print",
+    "routeChangePassword": "Change Password",
+    "routeLogout": "Logout"
+  },
+  "newAccident": {
+    "routeHome": "Home",
+    "routeSearchAccident": "Search Accident",
+    "routeNewAccident": "New Accident",
+    "routeChangePassword": "Change Password",
+    "routeLogout": "Logout"
+  },
+  "claimApplication": {
+    "routeHome": "Home",
+    "routeSearchAccident": "Search Accident",
+    "loadSave": "Save",
+    "routePrint": "Print",
+    "routeChangePassword": "Change Password",
+    "routeLogout": "Logout"
+  },
+  "systemAdmin": {
+    "routeSystemAdminHome": "Home",
+    "routeSystemAdminChangePassword": "Change Password",
+    "routeLogout": "Logout"
+  }
+}

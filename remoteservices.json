@@ -1,0 +1,213 @@
+[
+	{
+		"serviceName": "login",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2xvZ2lu",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "forgotPassword",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2ZvcmdvdFBhc3N3b3Jk",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getClaimWQSummaryCmsh5",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldENsYWltV1FTdW1tYXJ5Q21zaDU=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "retrieveClaimCmsh5",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3JldHJpZXZlQ2xhaW1DbXNoNQ==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "assignClaimCmsh5",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2Fzc2lnbkNsYWltQ21zaDU=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getVehicles",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldFZlaGljbGVz",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getAccidentSummary",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldEFjY2lkZW50U3VtbWFyeQ==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "retrieveAccidentCmsh5",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3JldHJpZXZlQWNjaWRlbnRDbXNoNQ==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "updateClaimCmsh5",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3VwZGF0ZUNsYWltQ21zaDU=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "persistCmsh5",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3BlcnNpc3RDbXNoNQ==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "updateAccidentCmsh5",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3VwZGF0ZUFjY2lkZW50Q21zaDU=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "generatePDFCmsh5",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dlbmVyYXRlUERGQ21zaDU=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "generateGridPDFCmsh5",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dlbmVyYXRlR3JpZFBERkNtc2g1",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "generateRevisionPDFCmsh5",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dlbmVyYXRlUmV2aXNpb25QREZDbXNoNQ==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getClaims",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldENsYWltcw==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "changePassword",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2NoYW5nZVBhc3N3b3Jk",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "uploadSupportingDocuments",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3VwbG9hZFN1cHBvcnRpbmdEb2N1bWVudHM=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "downloadSupportingDocuments",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2Rvd25sb2FkU3VwcG9ydGluZ0RvY3VtZW50cw==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "sendVehicleRequest",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3NlbmRWZWhpY2xlUmVxdWVzdA==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "sendDriverRequest",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3NlbmREcml2ZXJSZXF1ZXN0",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getDriverPicture",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldERyaXZlclBpY3R1cmU=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "generateCoverSheetPDFCmsh5",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dlbmVyYXRlQ292ZXJTaGVldFBERkNtc2g1",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "websocketServer",
+		"serviceEndpoint": "d3M6Ly8xOTIuMTY4LjAuNDQ6ODA4MC9jbXN3ZWJzb2NrZXQvc2VydmVyL2Ntc2g1",
+		"serviceApiKey": "UTNKbFpHbDBUMkpxWldOMEpFRkdRUT09",
+		"serviceClientKey": "VDNKcGIyNUJVRWxCUmtFPQ=="
+	},
+	{
+		"serviceName": "getPayments",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldFBheW1lbnRz",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getBatches",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldEJhdGNoZXM=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getParameterCategories",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldFBhcmFtZXRlckNhdGVnb3JpZXM=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getCompanyParameters",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldENvbXBhbnlQYXJhbWV0ZXJz",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getServiceProviderTypes",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldFNlcnZpY2VQcm92aWRlclR5cGVz",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getServiceProvider",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldFNlcnZpY2VQcm92aWRlcg==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getUserTypes",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldFVzZXJUeXBlcw==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getUsers",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldFVzZXJz",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getUsersLookup",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldFVzZXJzTG9va3Vw",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "getUserAccidents",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2dldFVzZXJBY2NpZGVudHM=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "createBatch",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2NyZWF0ZUJhdGNo",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "changeBatchStatus",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2NoYW5nZUJhdGNoU3RhdHVz",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "editBatchPayments",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2VkaXRCYXRjaFBheW1lbnRz",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "persistOrUpdateAll",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3BlcnNpc3RPclVwZGF0ZUFsbA==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "persistServiceProvider",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3BlcnNpc3RTZXJ2aWNlUHJvdmlkZXI=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "saveSystemUser",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3NhdmVTeXN0ZW1Vc2Vy",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "sendPassword",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3NlbmRQYXNzd29yZA==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "assignUserAccidents",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL2Fzc2lnblVzZXJBY2NpZGVudHM=",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	},
+	{
+		"serviceName": "sendPayableRequest",
+		"serviceEndpoint": "aHR0cDovLzE5Mi4xNjguMC40NDo4MDgwL2Ntcy93ZWJzZXJ2aWNlL2RlbGVnYXRlL3NlbmRQYXlhYmxlUmVxdWVzdA==",
+		"contentType": "YXBwbGljYXRpb24vanNvbg=="
+	}
+]

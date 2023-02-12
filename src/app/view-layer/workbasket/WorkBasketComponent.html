@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <title>workBasket</title>
+</head>
+<body>
+<form [formGroup]="workBasketForm">
+  <div class="container-fluid">
+    <div class="row mt-2 mb-3 mx-auto sectionBackground rounded">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+            <mat-label>
+              WorkQueue
+            </mat-label>
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                <div class="headline3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div [hidden]="brief.logonCode==='00120'" class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
+            <mat-checkbox formControlName="bpcIndicator">
+              Last 30 Days BPC Claims
+            </mat-checkbox>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6">
+              <button class="linkButton" id="refreshGrid">
+                <span class="buttonContainer iconColorClass">
+                  <mat-icon class="customButtonStyling">refresh</mat-icon>
+                  <mat-label class="customButtonLabelStyling">Refresh</mat-label>
+                </span>
+              </button>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6">
+              <button class="linkButton" id="searchClaim">
+                  <span class="buttonContainer  iconColorClass">
+                <mat-icon [hidden]="!searchClaim" class="customButtonStyling">visibility_off</mat-icon>
+                <mat-label [hidden]="!searchClaim" class="customButtonLabelStyling">Hide Search Filter</mat-label>
+                <mat-icon [hidden]="searchClaim" class="customButtonStyling">visibility_on</mat-icon>
+                <mat-label [hidden]="searchClaim" class="customButtonLabelStyling">Show Search Filter</mat-label>
+                </span>
+              </button>
+          </div>
+          <div [hidden]="!clearFilters" class="col-xl-2 col-lg-2 col-md-3 col-sm-6">
+              <button class="linkButton" id="clearSearch">
+                <span class="buttonContainer">
+                <mat-icon class="customButtonStyling colorRed">clear</mat-icon>
+                <mat-label class="customButtonLabelStyling colorRed">Clear Filters</mat-label>
+              </span>
+              </button>
+          </div>
+        </div>
+            <div *ngIf="searchClaim" class="row mt-2 mb-2 mx-auto sectionBackground rounded">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <app-summaryfilter (eventEmitter)="searchClaimEventHandler($event)" [brief]="summaryFilterBrief" [comboData]="comboData.searchAccident"
+        ></app-summaryfilter>
+      </div>
+    </div>
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 Workbasket-head">
+                        <wj-group-panel [grid]="grdWorkBasket" max-groups="1"
+                                        placeholder="Drag columns here to create Groups"></wj-group-panel>
+            <wj-flex-grid #grdWorkBasket
+                          (initialized)="wrappingHeaderText()"
+                          [allowDragging]="1"
+                          [autoRowHeights]="true"
+                          [headersVisibility]="'Column'"
+                          [isReadOnly]="true"
+                          [itemsSource]="itemSource"
+                          [selectionMode]="3"
+                          [showSelectedHeaders]="'Column'"
+                          [wjContextMenu]="ctxMenu"
+                          id="grdWorkBasket">
+              <wj-flex-grid-filter #filter></wj-flex-grid-filter>
+              <wj-flex-grid-column [binding]="'accidentNumber'" [header]="'Accident Number'" [maxWidth]="450"
+                                   [minWidth]="90" [width]="'22*'"
+                                   [wordWrap]="true"></wj-flex-grid-column>
+              <wj-flex-grid-column [binding]="'accidentDate'" [header]="'Date'" [maxWidth]="430"
+                                   [minWidth]="65" [width]="'17*'" [wordWrap]="true">
+              </wj-flex-grid-column>
+              <wj-flex-grid-column [binding]="'registrationNumber'" [header]="'Rego No'" [maxWidth]="430"
+                                   [minWidth]="65" [width]="'16*'" [wordWrap]="true"></wj-flex-grid-column>
+              <wj-flex-grid-column [binding]="'claimNumber'" [header]="'Claim No'"
+                                   [maxWidth]="450" [minWidth]="70" [width]="'17*'"
+                                   [wordWrap]="true"></wj-flex-grid-column>
+              <wj-flex-grid-column [binding]="'receivedDate'" [header]="'Received Date'" [maxWidth]="450"
+                                   [minWidth]="65" [width]="'22*'" [wordWrap]="true">
+              </wj-flex-grid-column>
+              <wj-flex-grid-column [binding]="'claimantName'" [header]="'Claimant'" [maxWidth]="430"
+                                   [minWidth]="92" [width]="'23*'" [wordWrap]="true"></wj-flex-grid-column>
+              <wj-flex-grid-column [binding]="'roleType'" [header]="'Role'" [maxWidth]="450" [minWidth]="130"
+                                   [width]="'29*'" [wordWrap]="true"></wj-flex-grid-column>
+              <wj-flex-grid-column [binding]="'CMSAssignee'" [header]="'Claim Officer'" [maxWidth]="370"
+                                   [minWidth]="70" [width]="'28*'" [wordWrap]="true"></wj-flex-grid-column>
+              <wj-flex-grid-column [aggregate]="'Sum'" [binding]="'estimatedAmount'" [header]="'Estimated Amount'"
+                                   [maxWidth]="330" [minWidth]="100" [visible]="brief.logonCode !== '00150'" [width]="'25*'"
+                                   [wordWrap]="true"></wj-flex-grid-column>
+              <wj-flex-grid-column [aggregate]="'Sum'" [binding]="'reservedAmount'" [header]="'Reserved Amount'"
+                                   [maxWidth]="370" [minWidth]="95" [visible]="brief.logonCode !== '00150'" [width]="'22*'"
+                                   [wordWrap]="true"></wj-flex-grid-column>
+              <wj-flex-grid-column [aggregate]="'Sum'" [binding]="'claimantPaidAmount'" [header]="'Claimant Paid'"
+                                   [maxWidth]="400" [minWidth]="95" [width]="'22*'"
+                                   [wordWrap]="true"></wj-flex-grid-column>
+              <wj-flex-grid-column [aggregate]="'Sum'" [binding]="'totalPaidAmount'" [header]="'Total Paid'"
+                                   [maxWidth]="360" [minWidth]="65" [width]="'18*'"
+                                   [wordWrap]="true"></wj-flex-grid-column>
+              <wj-flex-grid-column [binding]="'status'" [header]="'Status'" [maxWidth]="370" [minWidth]="75" [width]="'20*'"
+                                   [wordWrap]="true">
+                <ng-template [cellType]="'Cell'" let-cell="cell" wjFlexGridCellTemplate>
+                  <span [hidden]="cell.item.classCode !== '0'">
+                    {{'No S54'}}
+                  </span>
+                  <span [hidden]="cell.item.classCode === '0'">
+                    {{cell.item.status}}
+                  </span>
+                </ng-template>
+              </wj-flex-grid-column>
+              <wj-flex-grid-column [binding]="'independantReviewer'" [header]="'Fraud Chk/PR'" [maxWidth]="370"
+                                   [minWidth]="70" [width]="'18*'" [wordWrap]="true">
+              </wj-flex-grid-column>
+            </wj-flex-grid>
+          <wj-menu #ctxMenu (itemClicked)="menuItemClicked(ctxMenu)" [dropDownCssClass]="'ctx-menu'"
+                   [header]="'Context Menu'"
+                   [selectedValuePath]="'cmd'" class="d-none">
+          <wj-menu-item *ngFor="let item of ctxItemSource, let i = index" [cmd]="item.data" [value]="item.data" class="px-3">
+            {{item.label}}
+          </wj-menu-item>
+          </wj-menu>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+</body>
+</html>
+

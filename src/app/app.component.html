@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<div class="disabledBackground min-vh-100 w-100 position-fixed" *ngIf="disableBackgroundIndicator"></div>
+<app-header-smart *ngIf="router.url != '/' && router.url != '/login' "></app-header-smart>
+<ngx-loading-bar color="#ff0000"></ngx-loading-bar>
+<router-outlet class="colorClass"></router-outlet>
+<app-footer-smart></app-footer-smart>
+
+</body>
+</html>

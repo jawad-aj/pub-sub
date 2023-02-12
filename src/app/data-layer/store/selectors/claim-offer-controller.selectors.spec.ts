@@ -1,0 +1,7 @@
+
+
+describe('ClaimOfferController Selectors', () => {
+  it('should select the feature state', () => {
+    
+  });
+});

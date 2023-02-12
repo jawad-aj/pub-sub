@@ -1,0 +1,2344 @@
+{
+  "eventHandler": [
+    {
+      "code": "loadApplication",
+      "actionName": "[RemoteServices] Load Remote Services",
+      "brokerType": "BrokerRemoteServicesStore",
+      "dispatchedFrom": "App Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadRemoteServicesSuccess",
+      "actionName": "[Version] Load Version",
+      "brokerType": "BrokerRemoteServicesStore",
+      "dispatchedFrom": "App Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadVersionSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "App Component",
+      "navigateTo": "/login",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadLogin",
+      "actionName": "[Login] Load Login",
+      "brokerType": "BrokerLoginStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "",
+      "remoteServiceName": "login"
+    },
+    {
+      "code": "loadSetIsActive",
+      "actionName": "[Application] Set Is Active",
+      "brokerType": "BrokerLoginStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadLoginsSuccess",
+      "actionName": "[HeaderController] Load HeaderData",
+      "brokerType": "BrokerHeaderControllerStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadHeadersSuccess",
+      "actionName": "[WorkBasketController] Load WorkBasketComboData",
+      "brokerType": "BrokerWorkbasketControllerStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadWorkBasketComboDataSuccess",
+      "actionName": "[WorkBasketController] Load WorkBasketBrief",
+      "brokerType": "BrokerWorkbasketControllerStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadWorkBasketBriefSuccess",
+      "actionName": "[Assign Controller] Load AssignComboData",
+      "brokerType": "BrokerWorkbasketControllerStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAssignComboDataSuccess",
+      "actionName": "[WorkBasket] Load Get CL ClaimWQSummary",
+      "brokerType": "BrokerWorkBasketStore",
+      "dispatchedFrom": "WorkBasket Component",
+      "navigateTo": "",
+      "remoteServiceName": "getClaimWQSummaryCmsh5"
+    },
+    {
+      "code": "loadCLClaimWQSummarySuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "/home/workbasket",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadHeaderComboData",
+      "actionName": "[HeaderController] Load HeaderComboData",
+      "brokerType": "BrokerHeaderControllerStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadForgotPassword",
+      "actionName": "[Login] Load Forgot Password",
+      "brokerType": "BrokerLoginStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "",
+      "remoteServiceName": "forgotPassword"
+    },
+    {
+      "code": "loadChangePassword",
+      "actionName": "[Login] Load ChangePassword",
+      "brokerType": "BrokerLoginStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": "changePassword"
+    },
+    {
+      "code": "loadCLWQSummary",
+      "actionName": "[WorkBasket] Load Get CL ClaimWQSummary",
+      "brokerType": "BrokerWorkBasketStore",
+      "dispatchedFrom": "WorkBasket Component",
+      "navigateTo": "",
+      "remoteServiceName": "getClaimWQSummaryCmsh5"
+    },
+    {
+      "code": "loadBPCWQSummary",
+      "actionName": "[WorkBasket] Load Get BPC ClaimWQSummary",
+      "brokerType": "BrokerWorkBasketStore",
+      "dispatchedFrom": "WorkBasket Component",
+      "navigateTo": "",
+      "remoteServiceName": "getClaimWQSummaryCmsh5"
+    },
+    {
+      "code": "loadSearchWQSummary",
+      "actionName": "[WorkBasket] Load Get Search ClaimWQSummary",
+      "brokerType": "BrokerWorkBasketStore",
+      "dispatchedFrom": "WorkBasket Component",
+      "navigateTo": "",
+      "remoteServiceName": "getClaimWQSummaryCmsh5"
+    },
+    {
+      "code": "loadOpenClaim",
+      "actionName": "[WorkBasket] Load Get Claim Accident Summary",
+      "brokerType": "BrokerWorkBasketStore",
+      "dispatchedFrom": "WorkBasket Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveClaimCmsh5"
+    },
+    {
+      "code": "loadSelectedRow",
+      "actionName": "[SelectedRow] Load SelectedRow",
+      "brokerType": "BrokerWorkbasketControllerStore",
+      "dispatchedFrom": "WorkBasket Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimAccidentSummarySuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "WorkBasket Component",
+      "navigateTo": "/application",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeAccident",
+      "actionName": "[AccidentController] Load AccidentComboData",
+      "brokerType": "BrokerAccidentControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentComboDataSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "/application/accident",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeVehicle",
+      "actionName": "[VehicleController] Load VehicleComboData",
+      "brokerType": "BrokerVehicleControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadVehicleComboDataSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "/application/vehicle",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "fraudCheckStatusLoadNonStructuralApplicationChange",
+      "actionName": "[Application] Load NonStructuralApplicationChange",
+      "brokerType": "BrokerApplicationStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadNonStructuralApplicationChange",
+      "actionName": "[Application] Load NonStructuralApplicationChange",
+      "brokerType": "BrokerApplicationStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadNonStructuralAccidentApplicationChange",
+      "actionName": "[AccidentApplication] Load NonStructuralAccidentApplicationChange",
+      "brokerType": "BrokerApplicationStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentBrief",
+      "actionName": "[AccidentController] Load AccidentBrief",
+      "brokerType": "BrokerAccidentControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadDiaryBrief",
+      "actionName": "[DiaryController] Load DiaryBrief",
+      "brokerType": "BrokerDiaryControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeAttachments",
+      "actionName": "[Application] Load ImplicitSaveClaimApplication",
+      "brokerType": "BrokerApplicationStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateClaimCmsh5"
+    },
+    {
+      "code": "loadImplicitSaveClaimApplicationSuccess",
+      "actionName": "[AttachmentController] Load AttachmentComboData",
+      "brokerType": "BrokerAttachmentControllerStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAttachmentComboDataSuccess",
+      "actionName": "[AttachmentController] Load AttachmentBrief",
+      "brokerType": "BrokerAttachmentControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAttachmentBriefSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/application/attachment",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadGridPDF",
+      "actionName": "[Application] Load loadImplicitSaveClaimGridPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateClaimCmsh5"
+    },
+    {
+      "code": "loadImplicitSaveClaimGridPDFApplicationSuccess",
+      "actionName": "[PDF] Load GenerateClaim Grid PDF",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "generateGridPDFCmsh5"
+    },
+    {
+      "code": "loadGenerateClaimGridPDFSuccess",
+      "actionName": "[Application] Load ImplicitRetrieveClaimGridPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveClaimCmsh5"
+    },
+    {
+      "code": "loadRevisionPDF",
+      "actionName": "[Application] Load loadImplicitSaveClaimRevisionPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateClaimCmsh5"
+    },
+    {
+      "code": "loadImplicitSaveClaimRevisionPDFApplicationSuccess",
+      "actionName": "[PDF] Load GenerateClaim Revision PDF",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "generateRevisionPDFCmsh5"
+    },
+    {
+      "code": "loadGenerateClaimRevisionPDFSuccess",
+      "actionName": "[Application] Load ImplicitRetrieveClaimRevisionPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveClaimCmsh5"
+    },
+    {
+      "code": "loadAccidentLetterPDF",
+      "actionName": "[Application] Load ImplicitSaveAccidentLetterPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateAccidentCmsh5"
+    },
+    {
+      "code": "loadImplicitSaveAccidentLetterPDFApplicationSuccess",
+      "actionName": "[PDF] Load GenerateAccident PDF",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "generatePDFCmsh5"
+    },
+    {
+      "code": "loadGenerateAccidentPDFSuccess",
+      "actionName": "[Application] Load ImplicitRetrieveAccidentPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveAccidentCmsh5"
+    },
+    {
+      "code": "loadCoverSheetPDFCode",
+      "actionName": "[PDF] Load ClaimCoverSheetPDFCode",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentCoverSheetPDFCode",
+      "actionName": "[PDF] Load AccidentCoverSheetPDFCode",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadPDFCode",
+      "actionName": "[PDF] Load PDFCode",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadLINVPDFCode",
+      "actionName": "[PDF] Load LINVPDFCode",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPDFCode",
+      "actionName": "[PDF] Load AccidentPDFCode",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadLetterPDF",
+      "actionName": "[Application] Load loadImplicitSaveClaimLetterPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateClaimCmsh5"
+    },
+    {
+      "code": "loadImplicitSaveClaimLetterPDFApplicationSuccess",
+      "actionName": "[PDF] Load GenerateClaim PDF",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "generatePDFCmsh5"
+    },
+    {
+      "code": "loadGenerateClaimPDFSuccess",
+      "actionName": "[Application] Load loadImplicitRetrieveClaimLetterPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveClaimCmsh5"
+    },
+    {
+      "code": "loadClaimOfferLetterPDF",
+      "actionName": "[Application] Load ImplicitClaimOfferLetterPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateClaimCmsh5"
+    },
+    {
+      "code": "loadImplicitSaveClaimOfferLetterPDFApplicationSuccess",
+      "actionName": "[PDF] Load GenerateClaimOfferLetterPDF",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "generatePDFCmsh5"
+    },
+    {
+      "code": "loadGenerateClaimOfferLetterPDFSuccess",
+      "actionName": "[Application] Load ImplicitRetrieveClaimOfferLetterPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveClaimCmsh5"
+    },
+    {
+      "code": "loadLINVLetterPDF",
+      "actionName": "[Application] Load ImplicitSaveClaimLINVPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateClaimCmsh5"
+    },
+    {
+      "code": "loadImplicitSaveClaimLINVPDFApplicationSuccess",
+      "actionName": "[PDF] Load GenerateClaim LINVPDF",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "generatePDFCmsh5"
+    },
+    {
+      "code": "loadGenerateClaimLINVPDFSuccess",
+      "actionName": "[Application] Load ImplicitRetrieveClaimLINVPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveClaimCmsh5"
+    },
+    {
+      "code": "loadCoverSheetPDF",
+      "actionName": "[Application] Load ImplicitSaveClaimCoverSheetPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateClaimCmsh5"
+    },
+    {
+      "code": "loadImplicitSaveClaimCoverSheetPDFApplicationSuccess",
+      "actionName": "[PDF] Load GenerateClaim Cover Sheet PDF",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "generateCoverSheetPDFCmsh5"
+    },
+    {
+      "code": "loadClaimCoverSheetPDFSuccess",
+      "actionName": "[Application] Load ImplicitRetrieveClaimCoverSheetPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveClaimCmsh5"
+    },
+    {
+      "code": "loadAccidentCoverSheetPDF",
+      "actionName": "[Application] Load ImplicitSaveAccidentCoverSheetPDFApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateAccidentCmsh5"
+    },
+    {
+      "code": "loadImplicitSaveAccidentCoverSheetPDFApplicationSuccess",
+      "actionName": "[PDF] Load GenerateAccident Cover Sheet PDF",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "generateCoverSheetPDFCmsh5"
+    },
+    {
+      "code": "loadAccidentCoverSheetPDFSuccess",
+      "actionName": "[Application] Load ImplicitRetrieveAccidentCoverSheetApplication",
+      "brokerType": "BrokerPdfStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveAccidentCmsh5"
+    },
+    {
+      "code": "fileURLUndefined",
+      "actionName": "[FileURL] Reset File URL",
+      "brokerType": "BrokerFileURLStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadUploadAttachment",
+      "actionName": "[FileURL] Load Upload New Document",
+      "brokerType": "BrokerFileURLStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "uploadSupportingDocuments"
+    },
+    {
+      "code": "loadUploadNewDocumentSuccess",
+      "actionName": "[WorkBasket] Load ImplicitClaimAccidentSummary",
+      "brokerType": "BrokerWorkBasketStore",
+      "dispatchedFrom": "WorkBasket Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveClaimCmsh5"
+    },
+    {
+      "code": "loadUploadAccidentAttachment",
+      "actionName": "[FileURL] Load Upload Accident New Document",
+      "brokerType": "BrokerFileURLStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "uploadSupportingDocuments"
+    },
+    {
+      "code": "loadUploadAccidentNewDocumentSuccess",
+      "actionName": "[Accident] Load Implicit Retrieve Accident",
+      "brokerType": "BrokerSearchAccidentControllerStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveAccidentCmsh5"
+    },
+    {
+      "code": "loadDownloadAttachment",
+      "actionName": "[FileURL] Load Download Document",
+      "brokerType": "BrokerFileURLStore",
+      "dispatchedFrom": "Attachment Component",
+      "navigateTo": "",
+      "remoteServiceName": "downloadSupportingDocuments"
+    },
+    {
+      "code": "loadVehicleBrief",
+      "actionName": "[VehicleController] Load VehicleBrief",
+      "brokerType": "BrokerVehicleControllerStore",
+      "dispatchedFrom": "Vehicle Smart Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadCTPVIRMValidation",
+      "actionName": "[ThirdParty] Load VehicleRequest",
+      "brokerType": "BrokerVehicleControllerStore",
+      "dispatchedFrom": "Vehicle Smart Component",
+      "navigateTo": "",
+      "remoteServiceName": "sendVehicleRequest"
+    },
+    {
+      "code": "loadVehicleRequestSuccess",
+      "actionName": "",
+      "brokerType": "",
+      "dispatchedFrom": "",
+      "navigateTo": "",
+      "dialogName": "ctpValidationDialog",
+      "dialogTitle": "CTP & VIRM Validation",
+      "isSmart": "application",
+      "dialogDescription": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadDriverValidation",
+      "actionName": "[ThirdParty] Load DriverRequest",
+      "brokerType": "BrokerVehicleControllerStore",
+      "dispatchedFrom": "Vehicle Smart Component",
+      "navigateTo": "",
+      "remoteServiceName": "sendDriverRequest"
+    },
+    {
+      "code": "loadDriverRequestSuccess",
+      "actionName": "",
+      "brokerType": "",
+      "dispatchedFrom": "",
+      "navigateTo": "",
+      "dialogName": "driverValidationDialog",
+      "dialogTitle": "Driver Validation",
+      "isSmart": "application",
+      "dialogDescription": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadDriverPicture",
+      "actionName": "[ThirdParty] Load DriverPicture",
+      "brokerType": "BrokerVehicleControllerStore",
+      "dispatchedFrom": "Vehicle Smart Component",
+      "navigateTo": "",
+      "remoteServiceName": "getDriverPicture"
+    },
+    {
+      "code": "loadDriverPictureSuccess",
+      "actionName": "",
+      "brokerType": "",
+      "dispatchedFrom": "",
+      "navigateTo": "",
+      "dialogName": "driverPictureDialog",
+      "dialogTitle": "Driver Picture Validation",
+      "isSmart": "application",
+      "dialogDescription": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeClaim",
+      "actionName": "[ClaimController] Load ClaimBrief",
+      "brokerType": "BrokerClaimControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimBriefSuccess",
+      "actionName": "[ClaimController] Load ClaimComboData",
+      "brokerType": "BrokerClaimControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimComboDataSuccess",
+      "actionName": "[ClaimServiceProviderController] Load ClaimServiceProviderBrief",
+      "brokerType": "BrokerClaimControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimBrief",
+      "actionName": "[ClaimController] Load ClaimBrief",
+      "brokerType": "BrokerClaimControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimantBrief",
+      "actionName": "[ClaimController] Load ClaimantBrief",
+      "brokerType": "BrokerClaimControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimServiceProviderBriefSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "/application/claim",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadShowVehicles",
+      "actionName": "[Vehicle] Load Show Vehicle",
+      "brokerType": "BrokerVehicleSummaryStore",
+      "dispatchedFrom": "Vehicle Component",
+      "navigateTo": "",
+      "remoteServiceName": "getVehicles"
+    },
+    {
+      "code": "loadShowClaims",
+      "actionName": "[Claim] Load Show Claim",
+      "brokerType": "BrokerClaimControllerStore",
+      "dispatchedFrom": "Claim Component",
+      "navigateTo": "",
+      "remoteServiceName": "getClaims"
+    },
+    {
+      "code": "loadAssign",
+      "actionName": "[Assign] Load Assign Claim",
+      "brokerType": "BrokerWorkBasketStore",
+      "dispatchedFrom": "Assign Component",
+      "navigateTo": "",
+      "remoteServiceName": "assignClaimCmsh5"
+    },
+    {
+      "code": "loadReAssign",
+      "actionName": "[Assign] Load Re-Assign Claim",
+      "brokerType": "BrokerWorkBasketStore",
+      "dispatchedFrom": "Assign Component",
+      "navigateTo": "",
+      "remoteServiceName": "assignClaimCmsh5"
+    },
+    {
+      "code": "loadTakeControl",
+      "actionName": "[Assign] Load Take Control Claim",
+      "brokerType": "BrokerWorkBasketStore",
+      "dispatchedFrom": "Assign Component",
+      "navigateTo": "",
+      "remoteServiceName": "assignClaimCmsh5"
+    },
+    {
+      "code": "loadForgotPasswordSuccess",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "SUCCESS",
+      "dialogDescription": "Email Sent Successfully!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertPaymentTypeSettlements",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Claim Payment",
+      "dialogDescription": "Claim Amount has already been paid to Settlement",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertPaymentTypeBPC",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Claim Payment",
+      "dialogDescription": "Claim Amount has already been paid to BPC",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadVehicleRequestFailure",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Error",
+      "dialogDescription": "The System is unable to connect with the database of CTP VRM System.",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAlertAccidentDateMissing",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Error",
+      "dialogDescription": "Accident date is required to perform this action.",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadVersionOutDated",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "confirmationOK",
+      "dialogTitle": "Version Error",
+      "dialogDescription": "Current Application is not up to date. System will reload latest version now.",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAlertWithDynamicMessage",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "SUCCESS",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "NgIdleSmartDialog",
+      "actionName": "",
+      "brokerType": "",
+      "dispatchedFrom": "",
+      "navigateTo": "",
+      "dialogName": "NGIDLE",
+      "dialogTitle": "Auto Logout Scheduled!",
+      "dialogDescription": "Due to inactivity, system is set to log you out in ",
+      "eventCode": "NgIdleSmartDialogHandler",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "NgIdleSmartDialogHandler",
+      "actionName": "[Application] ReSet Idle Service",
+      "brokerType": "BrokerLoginStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadDialogWithDynamicMessage",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Error",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadChangePasswordsSuccess",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "SUCCESS",
+      "dialogDescription": "Password Changed Successfully!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadLoginsFailure",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "ERROR",
+      "dialogDescription": "Invalid Username/Password!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "notificationFailure",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "ERROR",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertSearchAccidentFromDate",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "From Date must be selected before selecting To Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertDisabledUserCheck",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Error",
+      "dialogDescription": "The user account has been disabled, Please contact your administrator!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertClaimLetterAndAccidentDate",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Letter Date cannot be less then Accident Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertClaimOfferIncompleteInfo",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "You can not generate offer letter due to incomplete information!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertClaimLetterAndCurrentDate",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Letter Date cannot be greater then Current Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertClaimAcceptanceDateAndCurrentDate",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Acceptance Date cannot be greater then Current Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertClaimReceivedDateAndCurrentDate",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Receive Date cannot be greater then Current Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertClaimReceivedDateAndLetterDate",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Receive Date cannot be less then Letter Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertClaimAcceptanceDateAndReceivedDate",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Acceptance Date cannot be less then Received Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertSearchAccidentCurrentDateCheck",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "From Date cannot be greater than Current Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertCTPStartDateCheck",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "CTP Start Date cannot be greater than Current Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertSearchAccidentToDateCheck",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "From Date cannot be greater than To Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertAccidentStatus",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "All the Associate Claims must be closed before closing the Accident!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertDiary",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "You are not allowed to update System Generated comment!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertClaimantAge",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Year value should be greater than 1900 AND less or equal to Current Year!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertRequiredFieldsDiary",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Comment Title and Comments field(s) are mandatory to create comment",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertVehicleYear",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Year value should be greater than 1900 AND less or equal to Current Year!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertAccidentDate",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Invalid Selected Date",
+      "dialogDescription": "Accident date is greater than Current Date.Please select valid date",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertAccidentPoliceReportDate",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Police Report Date can not be less than Accident Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertAccidentCurrentDatePoliceReportDate",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Police Report Date can not be greater than Current Date!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadForgotPasswordFailure",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "ERROR",
+      "dialogDescription": "Invalid Username/Email!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadChangePasswordFailure",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "ERROR",
+      "dialogDescription": "Invalid Old Password!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "confirmationExitApplication",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "confirmation",
+      "dialogTitle": "Confirmation",
+      "dialogDescription": "Changes you made is not saved! \n Do you want to save?",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadLogout",
+      "actionName": "[Logout] Load Logout",
+      "brokerType": "BrokerLoginStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/login",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadLogoutSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/login",
+      "eventCode": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeLogout",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/login",
+      "dialogName": "confirmation",
+      "dialogTitle": "Logout Confirmation",
+      "dialogDescription": "Are you sure you want to logout?",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routePrint",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/application/print",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeAccidentPrint",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/application/accidentApplication/print",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeChangePassword",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/home/changePassword",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeHome",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/home/workbasket",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadInitialAssessmentBrief",
+      "actionName": "[InitialAssessmentController] Load InitialAssessmentBrief",
+      "brokerType": "BrokerInitialAssessmentControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeQuantumAssessment",
+      "actionName": "[MedicalEvidenceController] Load MedicalEvidenceBrief",
+      "brokerType": "BrokerMedicalEvidenceControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeMedicalEvidence",
+      "actionName": "[MedicalEvidenceController] Load MedicalEvidenceBrief",
+      "brokerType": "BrokerMedicalEvidenceControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadMedicalEvidenceBriefSuccess",
+      "actionName": "[MedicalEvidenceController] Load MedicalEvidenceComboData",
+      "brokerType": "BrokerMedicalEvidenceControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadMedicalEvidenceComboDataSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/application/quantumAssessment/medicalEvidence",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeFraudCheck",
+      "actionName": "[FraudCheckController] Load FraudCheckBrief",
+      "brokerType": "BrokerFraudCheckControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadFraudCheckBriefSuccess",
+      "actionName": "[FraudCheckController] Load FraudCheckComboData",
+      "brokerType": "BrokerFraudCheckControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadFraudCheckComboDataSuccess",
+      "actionName": "[FraudCheckController] Load InvestigationApprovalComboData",
+      "brokerType": "BrokerFraudCheckControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadInvestigationApprovalComboDataSuccess",
+      "actionName": "[FraudCheckController] Load ReviewApprovedComboData",
+      "brokerType": "BrokerFraudCheckControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadReviewApprovedComboDataSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Quantum Assessment Component",
+      "navigateTo": "/application/quantumAssessment/fraudCheck",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadReviewApprovedBrief",
+      "actionName": "[FraudCheckController] Load ReviewApprovedBrief",
+      "brokerType": "BrokerFraudCheckControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadInvestigationApprovalBrief",
+      "actionName": "[FraudCheckController] Load InvestigationApprovalBrief",
+      "brokerType": "BrokerFraudCheckControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadFraudCheckApprovedBrief",
+      "actionName": "[FraudCheckController] Load FraudCheckApprovedBrief",
+      "brokerType": "BrokerFraudCheckControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeIndependentReview",
+      "actionName": "[IndependentReviewController] Load IndependentReviewBrief",
+      "brokerType": "BrokerIndependentReviewControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadIndependentReviewBriefSuccess",
+      "actionName": "[IndependentReviewController] Load IndependentReviewComboData",
+      "brokerType": "BrokerIndependentReviewControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadIndependentReviewComboDataSuccess",
+      "actionName": "[IndependentReviewController] Load IndependentReviewClaimAuthorizationBrief",
+      "brokerType": "BrokerIndependentReviewControllerStore",
+      "dispatchedFrom": "Application Component",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadIndependentReviewClaimAuthorizationBriefSuccess",
+      "actionName": "[IndependentReviewController] Load IndependentReviewClaimAuthorizationComboData",
+      "brokerType": "BrokerIndependentReviewControllerStore",
+      "dispatchedFrom": "Application Component",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadIndependentReviewClaimAuthorizationComboDataSuccess",
+      "actionName": "[IndependentReviewController] Load IndependentReviewApprovedBrief",
+      "brokerType": "BrokerIndependentReviewControllerStore",
+      "dispatchedFrom": "Application Component",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadIndependentReviewApprovedBriefSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/application/quantumAssessment/independentReview",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeClaimOffer",
+      "actionName": "[ClaimOfferController] Load ClaimOfferBrief",
+      "brokerType": "BrokerClaimOfferControllerStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimOfferBriefSuccess",
+      "actionName": "[ClaimOfferController] Load ClaimOfferComboData",
+      "brokerType": "BrokerClaimOfferControllerStore",
+      "dispatchedFrom": "Quantum Assessment Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimOfferComboDataSuccess",
+      "actionName": "[ClaimOfferController] Load ClaimOfferApprovedBrief",
+      "brokerType": "BrokerClaimOfferControllerStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimOfferApprovedBriefSuccess",
+      "actionName": "[ClaimOfferController] Load ClaimOfferClaimAuthorizationBrief",
+      "brokerType": "BrokerClaimOfferControllerStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimOfferClaimAuthorizationBriefSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/application/quantumAssessment/claimOffer",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeInitialAssessment",
+      "actionName": "[InitialAssessmentController] Load InitialAssessmentBrief",
+      "brokerType": "BrokerInitialAssessmentControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadInitialAssessmentBriefSuccess",
+      "actionName": "[InitialAssessmentController] Load InitialAssessmentComboData",
+      "brokerType": "BrokerInitialAssessmentControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadInitialAssessmentComboDataSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/application/initialAssessment",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routePayments",
+      "actionName": "[PaymentController] Load PaymentComboData",
+      "brokerType": "BrokerPaymentControllerStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadPaymentComboDataSuccess",
+      "actionName": "[PaymentController] Load PaymentBrief",
+      "brokerType": "BrokerPaymentControllerStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadPaymentBriefSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/application/payment",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeDiary",
+      "actionName": "[DiaryController] Load DiaryBrief",
+      "brokerType": "BrokerDiaryControllerStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadDiaryBriefSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/application/diary",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeUndefined",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "route",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadExitApplication",
+      "actionName": "[ExitApplication] Load ExitApplication",
+      "brokerType": "BrokerApplicationStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClearSearchAccidents",
+      "actionName": "[SearchAccident] Load ClearSearchAccidents",
+      "brokerType": "BrokerSearchAccidentControllerStore",
+      "dispatchedFrom": "Search Accident Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadApplicationHeaderInfo",
+      "actionName": "[Application] Load ApplicationHeaderInfo",
+      "brokerType": "BrokerApplicationStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadPersistAccident",
+      "actionName": "[Accident Application] Load Persist Accident",
+      "brokerType": "BrokerApplicationStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "persistCmsh5"
+    },
+    {
+      "code": "loadUpdateAccident",
+      "actionName": "[Accident Application] Load Update Accident",
+      "brokerType": "BrokerApplicationStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateAccidentCmsh5"
+    },
+    {
+      "code": "loadSubmitClaims",
+      "actionName": "[Accident Application] Load Submit Accident",
+      "brokerType": "BrokerApplicationStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateAccidentCmsh5"
+    },
+    {
+      "code": "loadSearchAccident",
+      "actionName": "[SearchAccident] Load Search Accident",
+      "brokerType": "BrokerSearchAccidentControllerStore",
+      "dispatchedFrom": "Search Accident Component",
+      "navigateTo": "",
+      "remoteServiceName": "getAccidentSummary"
+    },
+    {
+      "code": "routeSearchAccident",
+      "actionName": "[SearchAccidentController] Load SearchAccidentComboData",
+      "brokerType": "BrokerSearchAccidentControllerStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadSearchAccidentComboDataSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/home/searchAccident",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadOpenAccident",
+      "actionName": "[Accident] Load Retrieve Accident",
+      "brokerType": "BrokerSearchAccidentControllerStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveAccidentCmsh5"
+    },
+    {
+      "code": "loadImplicitGetAccident",
+      "actionName": "[Accident] Load Implicit Retrieve Accident",
+      "brokerType": "BrokerSearchAccidentControllerStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": "retrieveAccidentCmsh5"
+    },
+    {
+      "code": "loadAccidentSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/application/accidentApplication",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadNewAccidentSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "/application/accidentApplication",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeNewAccident",
+      "actionName": "[Accident Application] Load New Accident",
+      "brokerType": "BrokerApplicationStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeAccidentPhaseAccident",
+      "actionName": "[AccidentApplication] Load AccidentApplication AccidentComboData",
+      "brokerType": "BrokerAccidentControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentApplicationAccidentComboDataSuccess",
+      "actionName": "[AccidentApplication] Load AccidentApplication AccidentBrief",
+      "brokerType": "BrokerAccidentControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentApplicationAccidentBriefSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "/application/accidentApplication/accident",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadVehicleSelectedRow",
+      "actionName": "[AccidentPhaseVehicleController] Load AccidentPhaseVehicleSelectedRow",
+      "brokerType": "BrokerAccidentPhaseVehicleSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimSelectedRow",
+      "actionName": "[AccidentPhaseClaimController] Load AccidentPhaseClaimSelectedRow",
+      "brokerType": "BrokerAccidentPhaseClaimSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeAccidentPhaseVehicle",
+      "actionName": "[AccidentPhaseVehicleSection] Load AccidentPhaseVehicleSectionComboData",
+      "brokerType": "BrokerAccidentPhaseVehicleSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseVehicleSectionComboDataSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "/application/accidentApplication/vehicle",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeAccidentPhaseClaim",
+      "actionName": "[AccidentPhaseClaimSection] Load AccidentPhaseClaimSectionComboData",
+      "brokerType": "BrokerAccidentPhaseClaimSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseClaimSectionComboDataSuccess",
+      "actionName": "[AccidentPhaseClaimController] Load AccidentPhaseClaimSectionBrief",
+      "brokerType": "BrokerAccidentPhaseClaimSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseClaimSectionBrief",
+      "actionName": "[AccidentPhaseClaimController] Load AccidentPhaseClaimSectionBrief",
+      "brokerType": "BrokerAccidentPhaseClaimSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseClaimSectionBriefSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "/application/accidentApplication/claim",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseDiaryBriefSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "/application/accidentApplication/diary",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeAccidentPhaseDiary",
+      "actionName": "[AccidentPhaseDiaryController] Load AccidentPhaseDiaryBrief",
+      "brokerType": "BrokerAccidentPhaseDiarySectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeAccidentPhaseAttachment",
+      "actionName": "[AccidentPhaseAttachmentController] Load AccidentPhaseAttachmentBrief",
+      "brokerType": "BrokerAttachmentControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseAttachmentGridBriefSuccess",
+      "actionName": "[AccidentPhaseAttachmentController] Load AccidentPhaseAttachmentComboData",
+      "brokerType": "BrokerAttachmentControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseAttachmentGridComboDataSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "/application/accidentApplication/attachment",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadSave",
+      "actionName": "[Application] Load SaveClaimApplication",
+      "brokerType": "BrokerApplicationStore",
+      "dispatchedFrom": "Header Component",
+      "navigateTo": "",
+      "remoteServiceName": "updateClaimCmsh5"
+    },
+    {
+      "code": "btnAddVehicle",
+      "actionName": "[AccidentPhaseVehicleController] Load AccidentPhaseVehicleComboData",
+      "brokerType": "BrokerAccidentPhaseVehicleSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseVehicleBrief",
+      "actionName": "[AccidentPhaseVehicleController] Load AccidentPhaseVehicleBrief",
+      "brokerType": "BrokerAccidentPhaseVehicleSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseVehicleComboDataSuccess",
+      "actionName": "",
+      "brokerType": "",
+      "dispatchedFrom": "",
+      "navigateTo": "",
+      "dialogName": "vehicleSection",
+      "dialogTitle": "Add/Edit Vehicle",
+      "isSmart": "application",
+      "dialogDescription": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "btnUpdateAttachment",
+      "actionName": "[AccidentPhaseAttachmentSectionController] Load AccidentPhaseAttachmentSectionSelectedRecord",
+      "brokerType": "BrokerAccidentPhaseAttachmentSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseAttachmentDialogSelectedRecordSuccess",
+      "actionName": "[AccidentPhaseAttachmentSectionController] Load AccidentPhaseAttachmentSectionBrief",
+      "brokerType": "BrokerAccidentPhaseAttachmentSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseAttachmentDialogBriefSuccess",
+      "actionName": "[AccidentPhaseAttachmentSectionController] Load AccidentPhaseAttachmentSectionComboData",
+      "brokerType": "BrokerAccidentPhaseAttachmentSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseAttachmentDialogComboDataSuccess",
+      "actionName": "",
+      "brokerType": "",
+      "dispatchedFrom": "",
+      "navigateTo": "",
+      "dialogName": "attachmentSection",
+      "dialogTitle": "Edit Attachment Comments",
+      "isSmart": "application",
+      "dialogDescription": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "btnAddClaim",
+      "actionName": "[AccidentPhaseClaimController] Load AccidentPhaseClaimComboData",
+      "brokerType": "BrokerAccidentPhaseClaimSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseClaimComboDataSuccess",
+      "actionName": "[AccidentPhaseClaimController] Load AccidentPhaseSmartClaimBrief",
+      "brokerType": "BrokerAccidentPhaseClaimSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseClaimBriefSuccess",
+      "actionName": "[AccidentPhaseClaimController] Load AccidentPhaseClaimServiceProviderBrief",
+      "brokerType": "BrokerAccidentPhaseClaimSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseClaimServiceProviderBriefSuccess",
+      "actionName": "",
+      "brokerType": "",
+      "dispatchedFrom": "",
+      "navigateTo": "",
+      "dialogName": "claimSection",
+      "dialogTitle": "Add/Edit Claim",
+      "isSmart": "application",
+      "dialogDescription": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadDiarySelectedRow",
+      "actionName": "[AccidentPhaseDiaryController] Load AccidentPhaseDiarySelectedRecord",
+      "brokerType": "BrokerAccidentPhaseDiarySectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "btnAddDiary",
+      "actionName": "[AccidentPhaseDiaryController] Load AccidentPhaseDiaryCommentsBrief",
+      "brokerType": "BrokerAccidentPhaseDiarySectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseDiaryCommentsBriefSuccess",
+      "actionName": "",
+      "brokerType": "",
+      "dispatchedFrom": "",
+      "navigateTo": "",
+      "dialogName": "diarySection",
+      "dialogTitle": "Add/Edit Diary Comments",
+      "isSmart": "application",
+      "dialogDescription": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAccidentPhaseClaimSectionClaimantBrief",
+      "actionName": "[AccidentPhaseClaimController] Load AccidentPhaseClaimantBrief",
+      "brokerType": "BrokerAccidentPhaseClaimSectionControllerStore",
+      "dispatchedFrom": "Accident Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadSaveClaimApplicationSuccess",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "/home/workbasket",
+      "dialogName": "confirmation",
+      "dialogTitle": "Confirmation",
+      "dialogDescription": "Your Application has been saved Successfully! \n Do you want to Exit?",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadSubmitAccidentSuccess",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Success",
+      "dialogDescription": "All Claims have been submitted!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadHospitalDischargeDate",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Admit Date can not be less than Accident Date",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadNoRecordFound",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Information",
+      "dialogDescription": "No Record Found For Given Criteria!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertPersistAccidentMandatoryFields",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "The accident date and street name should exist in order to save an accident!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertRoleRequired",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Claimant Role must be selected!",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadClaimOfferTotalAmount",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Alert",
+      "dialogDescription": "Total Amount can not exceed from the Current Estimate Amount",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "alertHttpFailure",
+      "actionName": "[Popup] Load Display Message",
+      "brokerType": "BrokerDisplayMessageStore",
+      "dispatchedFrom": "Event Handler Service",
+      "navigateTo": "",
+      "dialogName": "businessRuleFailure",
+      "dialogTitle": "Error:::",
+      "dialogDescription": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadWebsocketConnect",
+      "actionName": "[WebsocketConnect] Load WebsocketConnect",
+      "brokerType": "BrokerWebsocketServiceStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "",
+      "remoteServiceName": "websocketServer"
+    },
+    {
+      "code": "loadWebsocketAuthentication",
+      "actionName": "[WebsocketAuthentication] Load WebsocketAuthentication",
+      "brokerType": "BrokerWebsocketServiceStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "",
+      "remoteServiceName": "websocketServer"
+    },
+    {
+      "code": "loadWebsocketAuthenticationSuccess",
+      "actionName": "[WebsocketIdentity] Load WebsocketIdentity",
+      "brokerType": "BrokerWebsocketServiceStore",
+      "dispatchedFrom": "Login Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "identity",
+      "actionName": "[Footer] Load Footer",
+      "brokerType": "BrokerFooterControllerStore",
+      "dispatchedFrom": "App Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "disconnectWebsocket",
+      "actionName": "[Footer] Load Footer",
+      "brokerType": "BrokerFooterControllerStore",
+      "dispatchedFrom": "App Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "SetAssignBrief",
+      "actionName": "[Assign Controller] Load AssignBrief",
+      "brokerType": "BrokerWorkbasketControllerStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAssignBriefSuccess",
+      "actionName": "",
+      "brokerType": "",
+      "dispatchedFrom": "",
+      "navigateTo": "",
+      "dialogName": "assignSmart",
+      "dialogTitle": "Claim Assignment",
+      "isSmart": "home",
+      "dialogDescription": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadTakeControlClaimSuccess",
+      "actionName": "[WebsocketMessages] Load Websocket TakeControl",
+      "brokerType": "BrokerWebsocketMessagesStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAssignClaimSuccess",
+      "actionName": "[WebsocketMessages] Load Websocket Assign",
+      "brokerType": "BrokerWebsocketMessagesStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadReAssignClaimSuccess",
+      "actionName": "[WebsocketMessages] Load Websocket ReAssign",
+      "brokerType": "BrokerWebsocketMessagesStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "SaveClaimApplicationSuccess",
+      "actionName": "[WebsocketMessages] Load Websocket SaveClaim",
+      "brokerType": "BrokerWebsocketMessagesStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "ImplicitSaveClaimApplicationSuccess",
+      "actionName": "[WebsocketMessages] Load Websocket SaveClaim",
+      "brokerType": "BrokerWebsocketMessagesStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "ImplicitSaveClaimLetterPDFApplicationSuccess",
+      "actionName": "[WebsocketMessages] Load Websocket SaveClaim",
+      "brokerType": "BrokerWebsocketMessagesStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "ImplicitSaveClaimGridPDFApplicationSuccess",
+      "actionName": "[WebsocketMessages] Load Websocket SaveClaim",
+      "brokerType": "BrokerWebsocketMessagesStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "ImplicitSaveClaimRevisionPDFApplicationSuccess",
+      "actionName": "[WebsocketMessages] Load Websocket SaveClaim",
+      "brokerType": "BrokerWebsocketMessagesStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "ImplicitSaveClaimCoverSheetPDFApplicationSuccess",
+      "actionName": "[WebsocketMessages] Load Websocket SaveClaim",
+      "brokerType": "BrokerWebsocketMessagesStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "ImplicitSaveClaimLINVPDFApplicationSuccess",
+      "actionName": "[WebsocketMessages] Load Websocket SaveClaim",
+      "brokerType": "BrokerWebsocketMessagesStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeSystemAdminHome",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "/systemadmin/home",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadSystemAdminDynamicForms",
+      "actionName": "[Dynamic Forms] Load Get Dynamic Forms",
+      "brokerType": "BrokerDynamicFormsControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeSystemAdminChangePassword",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "/systemadmin/changePassword",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeSystemAdminPayments",
+      "actionName": "[Payment Controller] Load Get Payments",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": "getPayments"
+    },
+    {
+      "code": "loadGetPaymentsSuccess",
+      "actionName": "[Payment Controller] Load Get Payment Types",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadGetPaymentTypesSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "/systemadmin/application/payments",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadSystemAdminGetPayments",
+      "actionName": "[Payment Controller] Load Get Filtered Payments",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": "getPayments"
+    },
+    {
+      "code": "loadGetPaymentBatches",
+      "actionName": "[Payment Controller] Load Get Payment Batches",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Payment Component",
+      "navigateTo": "",
+      "remoteServiceName": "getBatches"
+    },
+    {
+      "code": "loadCreateBatch",
+      "actionName": "[Payment Controller] Load Create Batch",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Payment Component",
+      "navigateTo": "",
+      "remoteServiceName": "createBatch"
+    },
+    {
+      "code": "loadCreateBatchSuccess",
+      "actionName": "[Payment Controller] Load Get Filtered Payments",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Payment Component",
+      "navigateTo": "",
+      "remoteServiceName": "getPayments"
+    },
+    {
+      "code": "loadChangeBatchStatus",
+      "actionName": "[Payment Controller] Load Change Batch Status",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Payment Component",
+      "navigateTo": "",
+      "remoteServiceName": "changeBatchStatus"
+    },
+    {
+      "code": "loadGetPaymentFilter",
+      "actionName": "[Payment Controller] Load Get Payment Filter",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Payment Component",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadEditBatchPayments",
+      "actionName": "[Payment Controller] Load Edit Batch Payments",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Payment Component",
+      "navigateTo": "",
+      "remoteServiceName": "editBatchPayments"
+    },
+    {
+      "code": "loadGenericRetrievePayload",
+      "actionName": "[RetrieveCall] Load Retrieve Payload",
+      "brokerType": "BrokerGenericRetrieveControllerStore",
+      "dispatchedFrom": "System Admin",
+      "navigateTo": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadEditBatchPaymentSuccess",
+      "actionName": "[Payment Controller] Load Get Filtered Payments",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Payment Component",
+      "navigateTo": "",
+      "remoteServiceName": "getPayments"
+    },
+    {
+      "code": "loadExportBatch",
+      "actionName": "[Payment Controller] Load Export Batch",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Payment Component",
+      "navigateTo": "",
+      "remoteServiceName": "sendPayableRequest"
+    },
+    {
+      "code": "loadGetUnBatchPayments",
+      "actionName": "[Payment Controller] Load Get un-Batch Payments",
+      "brokerType": "BrokerPaymentsControllerStore",
+      "dispatchedFrom": "Payment Component",
+      "navigateTo": "",
+      "remoteServiceName": "getPayments"
+    },
+    {
+      "code": "loadUnBatchedPaymentsSuccess",
+      "actionName": "",
+      "brokerType": "",
+      "dispatchedFrom": "",
+      "navigateTo": "",
+      "dialogName": "unBatchedPayments",
+      "dialogTitle": "Un-Batched Payments",
+      "isSmart": "systemAdminApplication",
+      "dialogDescription": "",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "routeSystemAdminParameters",
+      "actionName": "[Parameter Controller] Load Get Parameter Categories",
+      "brokerType": "BrokerParametersControllerStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": "getParameterCategories"
+    },
+    {
+      "code": "loadGetParameterCategoriesSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "/systemadmin/application/parameters",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadGetCompanyParameters",
+      "actionName": "[Parameter Controller] Load Get Company Parameters",
+      "brokerType": "BrokerParametersControllerStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": "getCompanyParameters"
+    },
+    {
+      "code": "loadUpdateCompanyParameters",
+      "actionName": "[Parameter Controller] Load Update Company Parameters",
+      "brokerType": "BrokerParametersControllerStore",
+      "dispatchedFrom": "Home Component",
+      "navigateTo": "",
+      "remoteServiceName": "persistOrUpdateAll"
+    },
+    {
+      "code": "routeSystemAdminServiceProviders",
+      "actionName": "[Service Provider Controller] Load Get Service Provider Types",
+      "brokerType": "BrokerServiceProviderControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "getServiceProviderTypes"
+    },
+    {
+      "code": "loadServiceProviderTypesSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "/systemadmin/application/serviceProviders",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadPersistServiceProvider",
+      "actionName": "[Service Provider Controller] Load Persist Service Provider",
+      "brokerType": "BrokerServiceProviderControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "persistServiceProvider"
+    },
+    {
+      "code": "loadGetServiceProviders",
+      "actionName": "[Service Provider Controller] Load Get Service Providers",
+      "brokerType": "BrokerServiceProviderControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "getServiceProvider"
+    },
+    {
+      "code": "routeSystemAdminSystemUsers",
+      "actionName": "[System User Controller] Load Get System User Types",
+      "brokerType": "BrokerSystemUserControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "getUserTypes"
+    },
+    {
+      "code": "loadPersistSystemUser",
+      "actionName": "[System User Controller] Load Persist System User",
+      "brokerType": "BrokerSystemUserControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "saveSystemUser"
+    },
+    {
+      "code": "loadSendPassword",
+      "actionName": "[System User Controller] Load Send Password",
+      "brokerType": "BrokerSystemUserControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "sendPassword"
+    },
+    {
+      "code": "loadGetSystemUsers",
+      "actionName": "[System User Controller] Load Get System Users",
+      "brokerType": "BrokerSystemUserControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "getUsers"
+    },
+    {
+      "code": "loadPersistSystemUsersSuccess",
+      "actionName": "[System User Controller] Load Retrieve System User",
+      "brokerType": "BrokerSystemUserControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "getUsers"
+    },
+    {
+      "code": "loadUpdateCompanyParametersSuccess",
+      "actionName": "[Parameter Controller] Load Retrieve Company Parameters",
+      "brokerType": "BrokerParametersControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "getCompanyParameters"
+    },
+    {
+      "code": "loadSystemUserTypesSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "/systemadmin/application/systemUsers",
+      "remoteServiceName": ""
+    },
+    {
+      "code": "loadAssignBulkAccidents",
+      "actionName": "[Bulk Assignment Controller] Load Assign Bulk Assignment Accidents",
+      "brokerType": "BrokerBulkAssignmentControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "assignUserAccidents"
+    },
+    {
+      "code": "loadGetAccidents",
+      "actionName": "[Bulk Assignment Controller] Load Get Bulk Assignment Accidents",
+      "brokerType": "BrokerBulkAssignmentControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "getUserAccidents"
+    },
+    {
+      "code": "loadAssignBulkAccidentsSuccess",
+      "actionName": "[Bulk Assignment Controller] Load  RetrieveAccidents",
+      "brokerType": "BrokerBulkAssignmentControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "getUserAccidents"
+    },
+    {
+      "code": "routeSystemAdminBulkAssignment",
+      "actionName": "[Bulk Assignment Controller] Load Get User Lookups",
+      "brokerType": "BrokerBulkAssignmentControllerStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "",
+      "remoteServiceName": "getUsersLookup"
+    },
+    {
+      "code": "loadGetUserLookupSuccess",
+      "actionName": "[Router] Load Router Success",
+      "brokerType": "BrokerRouterStore",
+      "dispatchedFrom": "Application Component",
+      "navigateTo": "/systemadmin/application/bulkAssignment",
+      "remoteServiceName": ""
+    }
+  ]
+}
